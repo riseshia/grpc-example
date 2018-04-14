@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grpc_tools_ruby_protoc --proto_path=protos --ruby_out=lib protos/*.proto --grpc_out=lib
